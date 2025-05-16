@@ -1,0 +1,157 @@
+body {
+  font-family: "Nunito", "Inter", Arial, sans-serif;
+  background: linear-gradient(135deg, #f7e8fc 70%, #ffd4ed 100%);
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 430px;
+  margin: 48px auto 24px auto;
+  background: linear-gradient(135deg, #fff1fa 75%, #ffe2ff 100%);
+  border-radius: 30px;
+  box-shadow: 0 6px 40px #f0629240, 0 1.5px 2px #fff4f4;
+  padding: 40px 32px 36px 32px;
+  position: relative;
+  font-family: "Nunito", "Inter", Arial, sans-serif;
+}
+
+.card {
+  background: linear-gradient(120deg, #fbe3fc 65%, #ffe3e3 100%);
+  border-radius: 24px;
+  box-shadow: 0 2px 16px #ffb8c688, 0 0.7px 1px #e2bde6;
+  padding: 32px 26px 24px 26px;
+  margin-bottom: 16px;
+  position: relative;
+  border: 1.7px solid #ebc1f0;
+  font-family: "Inter", "Nunito", Arial, sans-serif;
+}
+
+.card h2 {
+  color: #a43c9c;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  font-size: 1.4em;
+  font-family: "Inter", "Nunito", Arial, sans-serif;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 1.1em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  font-weight: 500;
+  box-shadow: 0 1.5px 6px #f1c8d1;
+  transition: background 0.15s, color 0.15s, transform 0.12s;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.options button.correct {
+  background: #c3edc2;
+  color: #126a0c;
+  transform: scale(1.04);
+}
+
+.options button.wrong {
+  background: #ffd1dc;
+  color: #b60a2d;
+  transform: scale(0.98);
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 10px 0;
+  gap: 12px;
+}
+
+.button-weiter,
+.button-zurueck {
+  flex: 1 1 0;
+  padding: 14px 0;
+  min-width: 130px;
+  background: linear-gradient(90deg, #ab47bc 30%, #ef5350 100%);
+  color: #fff;
+  font-size: 1.18em;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 3px 24px #c36fba55;
+  cursor: pointer;
+  transition: transform 0.14s, box-shadow 0.2s, background 0.18s;
+  letter-spacing: 0.5px;
+  font-family: "Nunito", "Inter", Arial, sans-serif;
+  margin: 0;
+}
+
+.button-zurueck {
+  background: linear-gradient(90deg, #bbb7ee 30%, #9fd6e5 100%);
+  color: #494b6b;
+  box-shadow: 0 3px 24px #c8e7fa55;
+}
+
+.button-weiter:hover {
+  background: linear-gradient(90deg, #ef5350 20%, #ab47bc 100%);
+  transform: scale(1.06);
+  box-shadow: 0 7px 28px #f0629277;
+}
+.button-zurueck:hover {
+  background: linear-gradient(90deg, #9fd6e5 10%, #bbb7ee 100%);
+  transform: scale(1.06);
+  box-shadow: 0 7px 28px #9fd6e577;
+}
+
+.counter {
+  margin-top: 12px;
+  color: #a82c2c;
+  font-weight: bold;
+  text-align: right;
+  font-family: "Nunito", Arial, sans-serif;
+}
+
+.explanation {
+  margin-top: 16px;
+  padding: 10px 16px;
+  background: #f9f6ff;
+  border-radius: 10px;
+  font-size: 1em;
+  color: #6b458b;
+  box-shadow: 0 1.5px 8px #b288d511;
+}
+
+.phrase {
+  margin-top: 18px;
+  background: #f1ebfa;
+  padding: 11px 16px;
+  border-radius: 10px;
+  color: #6e4194;
+  font-size: 1em;
+  box-shadow: 0 1.5px 9px #b288d511;
+}
+
+.exception {
+  margin-top: 15px;
+  background: #fbead6;
+  border-left: 5px solid #fcaf4c;
+  padding: 8px 14px 7px 18px;
+  border-radius: 10px;
+  color: #af640c;
+  font-size: 1em;
+  box-shadow: 0 1.5px 8px #fcd7a322;
+}
+
+.tip {
+  margin-top: 13px;
+  background: #eaf9e5;
+  border-left: 5px solid #6cc184;
+  padding: 8px 14px 7px 18px;
+  border-radius: 10px;
+  color: #187243;
+  font-size: 1em;
+  box-shadow: 0 1.5px 8px #c2f5c722;
+}
