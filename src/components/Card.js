@@ -4,6 +4,10 @@ export default function Card({ data }) {
   const [selected, setSelected] = useState(null);
   const [isCorrect, setIsCorrect] = useState(false);
 
+  // Состояния для показа советов и трудных случаев
+  const [showException, setShowException] = useState(false);
+  const [showTip, setShowTip] = useState(false);
+
   function handleSelect(option) {
     if (isCorrect) return;
     setSelected(option);
@@ -73,19 +77,34 @@ export default function Card({ data }) {
           {data.phrase}
         </div>
       )}
-      {/* Новый блок с exception и tip */}
+
+      {/* Шторка для трудного случая */}
       {data.exception && (
         <div className="exception">
           <b>❗ Трудный случай:</b>
           <br />
-          {data.exception}
+          {!showException ? (
+            <button className="curtain-btn" onClick={() => setShowException(true)}>
+              <span role="img" aria-label="curtain">➡️ Открыть</span>
+            </button>
+          ) : (
+            <span>{data.exception}</span>
+          )}
         </div>
       )}
+
+      {/* Шторка для совета */}
       {data.tip && (
         <div className="tip">
           <b>💡 Совет:</b>
           <br />
-          {data.tip}
+          {!showTip ? (
+            <button className="curtain-btn" onClick={() => setShowTip(true)}>
+              <span role="img" aria-label="curtain">➡️ Открыть</span>
+            </button>
+          ) : (
+            <span>{data.tip}</span>
+          )}
         </div>
       )}
     </div>
