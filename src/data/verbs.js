@@ -19,7 +19,7 @@ const verbs = [
       "Только warten auf (+ Akk) — ждать КОГО/ЧЕГО. Не путай с warten an (находиться где-то).",
     tip: "Вспоминай: жду НА что-то (auf), всегда Akkusativ!",
     story:
-      "Макс steht schon lange an der Haltestelle und wartet _auf_ den Bus. Er schaut immer wieder auf die Uhr und hofft, dass der Bus bald kommt.",
+      "Max steht schon lange an der Haltestelle und wartet _auf_ den Bus. Er schaut immer wieder auf die Uhr und hofft, dass der Bus bald kommt.",
   },
   {
     verb: "denken",
@@ -40,7 +40,7 @@ const verbs = [
       "denken an (+ Akk) — думать О ком/чём, nachdenken über (+ Akk) — размышлять.",
     tip: "'an' — о ком/чём, 'über' — глубокое размышление.",
     story:
-      "Анна liegt im Bett und denkt _an_ die Prüfung morgen. Sie ist ein bisschen nervös, aber gut vorbereitet.",
+      "Anna liegt im Bett und denkt _an_ die Prüfung morgen. Sie ist ein bisschen nervös, aber gut vorbereitet.",
   },
   {
     verb: "sprechen",
