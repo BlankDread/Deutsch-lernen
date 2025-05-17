@@ -155,3 +155,21 @@ body {
   font-size: 1em;
   box-shadow: 0 1.5px 8px #c2f5c722;
 }
+
+/* === Кнопка-шторка для раскрытия блока === */
+.curtain-btn {
+  margin: 7px 0 0 0;
+  background: #f6d8f5;
+  border: none;
+  border-radius: 1em;
+  padding: 6px 16px 6px 14px;
+  font-size: 1em;
+  color: #a82c2c;
+  cursor: pointer;
+  box-shadow: 0 1.5px 6px #ffe2f2aa;
+  transition: background 0.18s;
+  font-family: inherit;
+}
+.curtain-btn:hover {
+  background: #ffd4ed;
+}
