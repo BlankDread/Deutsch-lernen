@@ -759,7 +759,258 @@ const verbs = [
   exception: "über + Akk — глубокое размышление.",
   tip: "Думаешь глубоко — über + Akk.",
   alternatives: []
+},
+{
+  prompt: "Er wartet ___ die Nachricht.",
+  correct: "auf",
+  options: ["auf", "an", "mit"],
+  explanation: "‘warten auf’ — ждать чего-либо (Akkusativ).",
+  phrase: "Auf bessere Nachrichten warten. — Ждать лучших новостей.",
+  exception: "warten auf + Akk — ждать кого/чего-то.",
+  tip: "Ждать всегда auf + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Sie spricht ___ dem Arzt.",
+  correct: "mit",
+  options: ["mit", "zu", "an"],
+  explanation: "‘sprechen mit’ — говорить с кем-то (Dativ).",
+  phrase: "Mit dem Arzt sprechen. — Поговорить с врачом.",
+  exception: "mit + Dativ — с кем-то.",
+  tip: "С кем-то — mit + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Wir sprechen ___ die Situation.",
+  correct: "über",
+  options: ["über", "mit", "an"],
+  explanation: "‘sprechen über’ — говорить о чём-то (Akkusativ).",
+  phrase: "Über eine Situation sprechen. — Обсуждать ситуацию.",
+  exception: "über + Akk — тема разговора.",
+  tip: "О чём-то — über + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Ich frage ___ dem Lehrer.",
+  correct: "nach",
+  options: ["nach", "an", "um"],
+  explanation: "‘fragen nach’ — спрашивать о чём-то (Dativ).",
+  phrase: "Den Lehrer nach Hilfe fragen. — Попросить помощи у учителя.",
+  exception: "nach + Dativ — всегда о чём-то.",
+  tip: "О чём спрашиваешь? nach + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Er bittet ___ Rat.",
+  correct: "um",
+  options: ["um", "an", "mit"],
+  explanation: "‘bitten um’ — просить о чём-то (Akkusativ).",
+  phrase: "Um Rat bitten. — Просить совета.",
+  exception: "um + Akk — просьба.",
+  tip: "Просишь — um + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Wir erinnern uns ___ die Ferien.",
+  correct: "an",
+  options: ["an", "über", "mit"],
+  explanation: "‘sich erinnern an’ — помнить о чём-то (Akkusativ).",
+  phrase: "Sich an schöne Ferien erinnern. — Вспоминать хорошие каникулы.",
+  exception: "an + Akk — воспоминание.",
+  tip: "Помнишь — an + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Sie gewöhnt sich ___ das Studium.",
+  correct: "an",
+  options: ["an", "auf", "zu"],
+  explanation: "‘sich gewöhnen an’ — привыкать к чему-то (Akkusativ).",
+  phrase: "Sich an das Studium gewöhnen. — Привыкнуть к учёбе.",
+  exception: "an + Akk — привыкать к чему-то.",
+  tip: "Привыкаешь — an + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Wir nehmen ___ dem Spiel teil.",
+  correct: "an",
+  options: ["an", "mit", "bei"],
+  explanation: "‘teilnehmen an’ — участвовать в чём-то (Dativ).",
+  phrase: "An einem Spiel teilnehmen. — Играть в игре.",
+  exception: "an + Dativ — участие.",
+  tip: "Участвуешь — an + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Sie ist interessiert ___ Sprachen.",
+  correct: "an",
+  options: ["an", "auf", "mit"],
+  explanation: "‘interessiert sein an’ — интересоваться чем-то (Dativ).",
+  phrase: "An Sprachen interessiert sein. — Интересоваться языками.",
+  exception: "an + Dativ — интерес.",
+  tip: "Интерес к чему-то — an + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Ich habe Angst ___ Höhe.",
+  correct: "vor",
+  options: ["vor", "an", "auf"],
+  explanation: "‘Angst haben vor’ — бояться чего-то (Dativ).",
+  phrase: "Angst vor der Höhe haben. — Бояться высоты.",
+  exception: "vor + Dativ — страх.",
+  tip: "Боишься — vor + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Er träumt ___ einer großen Familie.",
+  correct: "von",
+  options: ["von", "an", "mit"],
+  explanation: "‘träumen von’ — мечтать о чём-то (Dativ).",
+  phrase: "Von einer großen Familie träumen. — Мечтать о большой семье.",
+  exception: "von + Dativ — мечта.",
+  tip: "Мечтаешь — von + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Wir denken ___ die Schule.",
+  correct: "an",
+  options: ["an", "über", "mit"],
+  explanation: "‘denken an’ — думать о чём-то (Akkusativ).",
+  phrase: "An die Schule denken. — Вспоминать школу.",
+  exception: "an + Akk — думать о чём-то.",
+  tip: "О чём думаешь — an + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Sie denkt ___ ihre Aufgaben nach.",
+  correct: "über",
+  options: ["über", "an", "mit"],
+  explanation: "‘nachdenken über’ — размышлять о чём-то (Akkusativ).",
+  phrase: "Über seine Aufgaben nachdenken. — Обдумывать свои задания.",
+  exception: "über + Akk — глубокое размышление.",
+  tip: "Думаешь глубоко — über + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Ich spreche ___ meinen Eltern.",
+  correct: "mit",
+  options: ["mit", "über", "an"],
+  explanation: "‘sprechen mit’ — говорить с кем-то (Dativ).",
+  phrase: "Mit den Eltern sprechen. — Разговаривать с родителями.",
+  exception: "mit + Dativ — с кем-то.",
+  tip: "С кем-то — mit + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Wir sprechen ___ die Hausaufgaben.",
+  correct: "über",
+  options: ["über", "mit", "an"],
+  explanation: "‘sprechen über’ — говорить о чём-то (Akkusativ).",
+  phrase: "Über die Hausaufgaben sprechen. — Обсуждать домашнее задание.",
+  exception: "über + Akk — тема разговора.",
+  tip: "О чём-то — über + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Er fragt ___ dem Buch.",
+  correct: "nach",
+  options: ["nach", "an", "um"],
+  explanation: "‘fragen nach’ — спрашивать о чём-то (Dativ).",
+  phrase: "Nach dem Buch fragen. — Спросить о книге.",
+  exception: "nach + Dativ — всегда о чём-то.",
+  tip: "О чём спрашиваешь? nach + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Ich bitte ___ Verständnis.",
+  correct: "um",
+  options: ["um", "an", "nach"],
+  explanation: "‘bitten um’ — просить о чём-то (Akkusativ).",
+  phrase: "Um Verständnis bitten. — Просить понимания.",
+  exception: "um + Akk — просьба.",
+  tip: "Просишь — um + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Wir erinnern uns ___ den ersten Schultag.",
+  correct: "an",
+  options: ["an", "mit", "zu"],
+  explanation: "‘sich erinnern an’ — помнить о чём-то (Akkusativ).",
+  phrase: "Sich an den ersten Schultag erinnern. — Вспоминать первый школьный день.",
+  exception: "an + Akk — воспоминание.",
+  tip: "Помнишь — an + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Sie gewöhnt sich ___ das neue Haus.",
+  correct: "an",
+  options: ["an", "auf", "zu"],
+  explanation: "‘sich gewöhnen an’ — привыкать к чему-то (Akkusativ).",
+  phrase: "Sich an ein neues Haus gewöhnen. — Привыкать к новому дому.",
+  exception: "an + Akk — привыкать к чему-то.",
+  tip: "Привыкаешь — an + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Wir nehmen ___ dem Ausflug teil.",
+  correct: "an",
+  options: ["an", "mit", "bei"],
+  explanation: "‘teilnehmen an’ — участвовать в чём-то (Dativ).",
+  phrase: "An einem Ausflug teilnehmen. — Принять участие в экскурсии.",
+  exception: "an + Dativ — участие.",
+  tip: "Участвуешь — an + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Sie ist interessiert ___ Sport.",
+  correct: "an",
+  options: ["an", "auf", "mit"],
+  explanation: "‘interessiert sein an’ — интересоваться чем-то (Dativ).",
+  phrase: "An Sport interessiert sein. — Интересоваться спортом.",
+  exception: "an + Dativ — интерес.",
+  tip: "Интерес к чему-то — an + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Ich habe Angst ___ Wasser.",
+  correct: "vor",
+  options: ["vor", "an", "auf"],
+  explanation: "‘Angst haben vor’ — бояться чего-то (Dativ).",
+  phrase: "Angst vor Wasser haben. — Бояться воды.",
+  exception: "vor + Dativ — страх.",
+  tip: "Боишься — vor + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Er träumt ___ einer Insel.",
+  correct: "von",
+  options: ["von", "an", "mit"],
+  explanation: "‘träumen von’ — мечтать о чём-то (Dativ).",
+  phrase: "Von einer Insel träumen. — Мечтать об острове.",
+  exception: "von + Dativ — мечта.",
+  tip: "Мечтаешь — von + Dativ.",
+  alternatives: []
+},
+{
+  prompt: "Wir denken ___ die Ferien.",
+  correct: "an",
+  options: ["an", "über", "mit"],
+  explanation: "‘denken an’ — думать о чём-то (Akkusativ).",
+  phrase: "An die Ferien denken. — Думать о каникулах.",
+  exception: "an + Akk — думать о чём-то.",
+  tip: "О чём думаешь — an + Akk.",
+  alternatives: []
+},
+{
+  prompt: "Sie denkt ___ ihre Familie nach.",
+  correct: "über",
+  options: ["über", "an", "mit"],
+  explanation: "‘nachdenken über’ — размышлять о чём-то (Akkusativ).",
+  phrase: "Über die Familie nachdenken. — Размышлять о семье.",
+  exception: "über + Akk — глубокое размышление.",
+  tip: "Думаешь глубоко — über + Akk.",
+  alternatives: []
 }
+
 
 
 ];
