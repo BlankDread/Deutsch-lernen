@@ -27,8 +27,9 @@ const verbs = [
     phrase: "",
     exception: "mit — с кем-то, über — о чём-то. Не путай!",
     tip: "mit всегда с Dativ, собеседник — объект после mit.",
-    alternatives: []
+    alternatives: [
       { usage: "sprechen über + Akk", example: "Wir sprechen über das Wetter.", explanation: "Говорить о чём-то" }
+    ]
   },
   {
     prompt: "Wir sprechen ___ das Problem.",
@@ -38,8 +39,9 @@ const verbs = [
     phrase: "",
     exception: "über — о чём-то, mit — с кем-то.",
     tip: "Если говорим о предмете — всегда über.",
-    alternatives: []
+    alternatives: [
       { usage: "sprechen mit + Dat", example: "Ich spreche mit dir.", explanation: "Говорить с кем-то" }
+    ]
   },
   {
     prompt: "Ich frage ___ dem Preis.",
@@ -151,8 +153,9 @@ const verbs = [
     phrase: "",
     exception: "mit + Dativ — с кем-то, über + Akk — о чём-то.",
     tip: "С кем-то — mit + Dativ.",
-    alternatives: []
+    alternatives: [
       { usage: "sprechen über + Akk", example: "Wir sprechen über Musik.", explanation: "Говорить о чём-то" }
+    ]
   },
   {
     prompt: "Wir sprechen ___ Musik.",
@@ -162,8 +165,9 @@ const verbs = [
     phrase: "",
     exception: "über + Akk — о чём-то, mit + Dativ — с кем-то.",
     tip: "О чём-то — über + Akk.",
-    alternatives: []
+    alternatives: [
       { usage: "sprechen mit + Dat", example: "Ich spreche mit Anna.", explanation: "Говорить с кем-то" }
+    ]
   },
   {
     prompt: "Sie fragt ___ dem Weg.",
@@ -255,7 +259,7 @@ const verbs = [
     tip: "Думаешь о чём-то — an + Akk.",
     alternatives: []
   },
-  {
+    {
     prompt: "Er wartet ___ die Antwort.",
     correct: "auf",
     options: ["auf", "mit", "zu"],
@@ -507,5 +511,6 @@ const verbs = [
   }
 // ...и дальше остальные, если надо!
 ];
+
 export default verbs;
 
