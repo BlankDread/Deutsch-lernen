@@ -4,13 +4,7 @@ const verbs = [
     correct: "auf",
     options: ["auf", "über", "mit"],
     explanation: "‘warten auf’ — ждать кого-то/чего-то (Akkusativ)",
-    alternatives: [
-      {
-        usage: "warten auf + Akk",
-        example: "Ich warte auf den Bus.",
-        explanation: "Ждать кого-то/чего-то"
-      }
-    ],
+    alternatives: [],
     phrase: "Abwarten und Tee trinken.",
     exception: "",
     tip: ""
@@ -25,7 +19,7 @@ const verbs = [
     exception: "",
     tip: ""
   }
-  // ... и так далее
+  // Добавь остальные задания по аналогии!
 ];
 
 export default verbs;
